@@ -8,7 +8,7 @@ impart random
 
 # generate random numbers 1 - 6
 die1 = random.randint(1, 6) 
-die2 = random.randrange(6)
+die2 = random.randrange(1, 6)
 
 total = 'die1' + 'die2'
 
